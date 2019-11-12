@@ -50,7 +50,7 @@ phin({
       .then(() => {
         res
           .status(200)
-          .send(`Insert AWESOME web page here! ^_^`);
+          .send(`Insert AWESOME web page here! ^_^ <img src="http://www.sweetcreations.ie/image/cache/products/Edible%20Images/unicorn5-500x500.jpg">`);
       })
       .catch(next);
   });
